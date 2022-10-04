@@ -94,4 +94,12 @@ h2 {
   h2 {
     font-size: 38px;
   }
+
+  h3 {
+    display: flex;
+  }
+
+  .intro-p {
+    font-size: 18px;
+  }
 }
