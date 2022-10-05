@@ -81,6 +81,36 @@ h3 {
   border-radius: 10px;
 }
 
+.about-link {
+  border: 3px solid #ff61e1;
+  color: #343a40;
+  transition: all 200ms ease-in-out;
+}
+
+.about-link:hover {
+  background-color: #f995e7;
+}
+
+.portfolio-link {
+  border: 3px solid #8132fe;
+  color: #343a40;
+  transition: all 200ms ease-in-out;
+}
+
+.portfolio-link:hover {
+  background-color: #9961f3;
+}
+
+.contact-link {
+  border: 3px solid #30ffed;
+  color: #343a40;
+  transition: all 200ms ease-in-out;
+}
+
+.contact-link:hover {
+  background-color: #82f6ed;
+}
+
 @media (max-width: 576px) {
   .btn-links {
     margin: 20px 5px;
