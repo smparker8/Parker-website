@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #8132fe;
+  --accent-color-1: #30ffed;
+  --accent-color-2: #ff61e1;
+}
+
 body {
   margin-bottom: 50px;
 }
@@ -60,7 +66,7 @@ h3 {
 
 /* top | right | bottom | left */
 
-.intro {
+.hero {
   margin: 80px 80px 0 80px;
 }
 
@@ -82,7 +88,7 @@ h3 {
 }
 
 .about-link {
-  border: 3px solid #ff61e1;
+  border: 3px solid var(--accent-color-2);
   color: #343a40;
   transition: all 200ms ease-in-out;
 }
@@ -92,7 +98,7 @@ h3 {
 }
 
 .portfolio-link {
-  border: 3px solid #8132fe;
+  border: 3px solid var(--primary-color);
   color: #343a40;
   transition: all 200ms ease-in-out;
 }
@@ -102,7 +108,7 @@ h3 {
 }
 
 .contact-link {
-  border: 3px solid #30ffed;
+  border: 3px solid var(--accent-color-1);
   color: #343a40;
   transition: all 200ms ease-in-out;
 }
