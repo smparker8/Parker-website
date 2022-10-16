@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #8132fe;
-  --accent-color-1: #30ffed;
-  --accent-color-2: #ff61e1;
+  --primary-color: #a5497e;
+  --accent-color-1: #26c6da;
+  --accent-color-2: #f9a825;
 }
 
 body {
@@ -37,6 +37,10 @@ h2 {
 
 h3 {
   font-weight: 400;
+}
+
+ul {
+  list-style: none;
 }
 
 .coder {
@@ -75,7 +79,7 @@ h3 {
 }
 
 .welcome {
-  background: #343a40;
+  background: #383844;
   color: #ffff;
   padding: 5rem;
 }
@@ -94,7 +98,8 @@ h3 {
 }
 
 .about-link:hover {
-  background-color: #f995e7;
+  background-color: var(--accent-color-2);
+  color: white;
 }
 
 .portfolio-link {
@@ -104,7 +109,8 @@ h3 {
 }
 
 .portfolio-link:hover {
-  background-color: #9961f3;
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .contact-link {
@@ -114,7 +120,27 @@ h3 {
 }
 
 .contact-link:hover {
-  background-color: #82f6ed;
+  background-color: var(--accent-color-1);
+  color: white;
+}
+
+.about-header {
+  font-weight: 400;
+}
+
+.about-p {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.logo {
+  border-radius: 40px;
+  margin: 50px 0 0 70px;
+}
+
+.techList {
+  font-size: 18px;
+  margin-left: 150px;
 }
 
 @media (max-width: 576px) {
