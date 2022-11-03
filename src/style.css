@@ -27,6 +27,7 @@ a {
 }
 
 h3,
+h4,
 p {
   font-family: "Roboto", sans-serif;
 }
@@ -35,12 +36,17 @@ h2 {
   font-size: 40px;
 }
 
-h3 {
+h3,
+h4 {
   font-weight: 400;
 }
 
 ul {
   list-style: none;
+}
+
+p {
+  font-size: 18px;
 }
 
 .coder {
@@ -124,11 +130,7 @@ ul {
   color: white;
 }
 
-.about-header {
-  font-weight: 400;
-}
-
-.about-p {
+.sub-p {
   font-size: 22px;
   margin-top: 30px;
 }
