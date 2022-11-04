@@ -28,7 +28,8 @@ a {
 
 h3,
 h4,
-p {
+p,
+.footer-p a {
   font-family: "Roboto", sans-serif;
 }
 
@@ -210,5 +211,9 @@ p {
   .about-p {
     margin: auto;
     text-align: center;
+  }
+
+  .footer-p {
+    font-size: 15px;
   }
 }
