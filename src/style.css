@@ -144,9 +144,10 @@ p {
   font-size: 18px;
 }
 
-.techUsed:hover {
+.techUsed:hover,
+.social-media:hover {
   background: linear-gradient(
-    to right,
+    45deg,
     #ef5350,
     #f48fb1,
     #7e57c2,
@@ -160,6 +161,11 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.social-media {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 @media (max-width: 576px) {
